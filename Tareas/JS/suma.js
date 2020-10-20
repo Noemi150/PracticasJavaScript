@@ -6,9 +6,9 @@ function Suma(){
 
     Suma = num1 + num2;
 
-    alert("El resultado es" + Suma)
+    alert("El resultado es" + Suma);
 
-    document.write(num1 + num2)
-    console.log(num1 + num2)
+    document.write(num1 + num2);
+    console.log(num1 + num2);
 
 }
