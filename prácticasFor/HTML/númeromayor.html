@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Comparación 3 números</title>
+    <title>Comparación tres numeros</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,29 +12,33 @@
   <body>
       <div class="container">
           <div class="jumbotron mt-2">
-              <h1>Comparación 3 números</h1>
+              <h1 class="text-center">Comparación de 3 números</h1>
               <div class="form-group">
-                <label for="">Ingesa el primer número</label>
+                <label for="">Ingresa el primer número</label>
                 <input type="number"
-                  class="form-control" name="" id="Número1" aria-describedby="helpId" 
+                  class="form-control" name="" id="numero1" aria-describedby="helpId" 
                   placeholder="Ingresa el primer número">
-               </div>
-                 <div class="form-group">
-                 <label for="">Ingresa el segundo número</label>
-                 <input type="number"
-                   class="form-control" name="" id="Número2" aria-describedby="helpId" 
-                   placeholder="Ingresa el segundo número">
-                </div>
-               <div class="form-group">
-                 <label for="">Ingresa el tercer número</label>
-                 <input type="number"
-                   class="form-control" name="" id="Número3" aria-describedby="helpId" 
-                   placeholder="Ingresa el tercer número">
-                </div>
-                <button type="button" name="" id="calcularnúmeros" onclick="calcularnúmeros()" class="btn btn-primary" class="btn-lg btn-block">
-                </button>
+              </div>
+              <div class="form-group">
+                <label for="">Ingresa el segundo número</label>
+                <input type="number"
+                  class="form-control" name="" id="numero2" aria-describedby="helpId" 
+                  placeholder="Ingresa el segundo número">
+              </div>
+              <div class="form-group">
+                <label for="">Ingresa el tercer número</label>
+                <input type="number"
+                  class="form-control" name="" id="numero3" aria-describedby="helpId" 
+                  placeholder="Ingresa el tercer número">
+              </div>
+              <button type="button" name="" id="calcular3numeros"  onclick="calcularnumeros()" class="btn btn-primary btn-lg btn-block">
+               Calcular número mayor
+            </button>
+            <div class="alert alert-danger mt-2" role="alert" id="imprimir"></div>
           </div>
       </div>
+    
+
     <!-- Optional JavaScript -->
     <script src="./../JS/numeromayor.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
