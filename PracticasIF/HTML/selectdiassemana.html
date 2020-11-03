@@ -15,19 +15,20 @@
               <h1 class="text-center">Días semana</h1>
               <div class="form-group">
                 <label for="">Selecciona un día de la semana</label>
-                <select class="form-control" name="" id="">
+                <select class="form-control" name="" id="dias">
                   <option>selecciona</option>
-                  <option>Dia 1</option>
-                  <option>Dia 2</option>
-                  <option>Dia 3</option>
-                  <option>Dia 4</option>
-                  <option>Dia 5</option>
-                  <option>Dia 6</option>
-                  <option>Dia 7</option>
+                  <option value="1">Dia 1</option>
+                  <option value="2">Dia 2</option>
+                  <option value="3">Dia 3</option>
+                  <option value="4">Dia 4</option>
+                  <option value="5">Dia 5</option>
+                  <option value="6">Dia 6</option>
+                  <option value="7">Dia 7</option>
                 </select>
               </div>
-              <button type="button" name="" id="" class="btn btn-primary btn-lg btn-block"></button>
-              <div class="alert alert-dark mt-2" role="alert"></div>
+              <button type="button" name="" id="semana" onclick="CalcularDias()" 
+              class="btn btn-primary btn-lg btn-block">calcular dias</button>
+              <div class="alert alert-dark mt-2" role="alert" id="imprimirdias"></div>
           </div>
       </div>
       
