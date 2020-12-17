@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(9, 137, 243);
+    color: #ffffff;
+}
+
+.titulo{
+    margin-top: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 100px;
+}
+
+.linea-c{
+    width: 100%;
+    border: 1px solid rgb(0, 8, 0);
+    margin-top: 1%;
+}
+
+.linea-2{
+    width: 100%;
+    border: 1px solid rgb(0, 12, 0);
+    margin-top: 1%;
+}
+
+.color{ 
+    color: rgb(0, 8, 0);
+}
+ 
+ 
+.menú{
+     width: 100%;
+     height: 4.5vh;
+     display: flex;
+     justify-content: space-around;
+     cursor: pointer;
+   
+}
+ 
+.menú > nav{
+     display: flex;
+     float: left;
+     width: 40%;
+     margin-left: 5%;
+}
+
+.menú > nav > a{
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+    border: 1px solid #000000;
+}
+ 
+ 
+.menú > nav > a:hover{
+    color: rgb(197, 33, 186);
+}
+
+.menú > .iconos{
+     width: 20%;
+     height: 50px;
+    margin-left: -45%;
+
+}
+
+.menú > .iconos > a > .fa{
+    width: 4%;
+    height: 10px;
+    color: black;
+    font-size: 20px;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+.fila1{
+    display: flex;
+    flex-flow: row;
+}
+
+.fila1 > .cuadro1{
+    width: 29%;
+    height: 62vh;
+    margin-left: 10%;
+    margin-top: 3%;
+    border: 1px solid black;
+    margin-left: 18%;
+}
+img{
+    width: 100%;
+    height: 50%;
+}
+
+.fila1 > .cuadro1 > p:hover{
+    color: rgb(157, 23, 197);
+}
+.fila1 > .cuadro1 > h1:hover{
+    color: rgb(156, 26, 195);
+}
+
+.fila1 > .cu2{
+    
+    width: 29%;
+    height: 62vh;
+    margin-left: 10%;
+    margin-top: 3%;
+    border: 1px solid black;
+    margin-left: 4%;
+}
+
+.fila1 > .cu2 > p:hover{
+    color: rgb(180, 30, 226);
+}
+
+.fila1 > .cu2 > h1:hover{
+    color: rgb(180, 30, 226);
+}
+
+
+.fila2{
+    display: flex;
+    flex-flow: row;
+}
+
+.fila2 > .cu3{
+    width: 29%;
+    height: 74vh;
+    margin-left: 10%;
+    margin-top: 3%;
+    border: 1px solid black;
+    margin-left: 18%;
+}
+
+.fila2 > .cu3 > h1:hover{
+    color: rgb(180, 30, 226);
+}
+
+.fila2 > .cu3 > p:hover{
+    color: rgb(180, 30, 226);
+}
+
+
+.fila2 > .cu4{
+    width: 29%;
+    height: 68vh;
+    margin-left: 10%;
+    margin-top: 3%;
+    border: 1px solid black;
+    margin-left: 4%;
+}
+
+.fila2 > .cu4 > h1:hover{
+    color: rgb(180, 30, 226);
+}
+
+.fila2 > .cu4 > p:hover{
+    color: rgb(180, 30, 226);
+}
+
+.linea-3{
+    width: 100%;
+    border: 1px solid rgb(0, 12, 0);
+    margin-top: 3%;
+}
+.subtitulo3{
+    margin-top: 5%;
+    margin-left: 25%;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#contacto{
+    width: 50%;
+    height: 60%;
+    margin-top: 4%;
+    margin-left:25%;
+}
+
+#buton{
+    background: #a90feb;
+    margin-top: 3%;
+    margin-left: 38%;
+    width: 30%;
+    height: 8vh;
+}
+
+
+#buton:hover{
+background: #000000;
+}
+
+.cuadro-gris{
+    background: #b9b9bd;
+    margin-top: 5%;
+    color: black;
+    width: 100%;
+    height: 10vh;
+}
+
+.parrafo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5vh;
+   margin-left: 30%;
+}
